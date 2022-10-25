@@ -31,7 +31,7 @@ const Home: NextPage = () => {
           <div className='text-center py-10'>
             <h5 className='app-text-main font-bold text-lg'>Our Services</h5>
           </div>
-          <div className='container mx-auto flex justify-center space-x-10'>
+          <div className='container mx-auto flex justify-center md:space-x-10 space-x-0  flex-col md:flex-row  items-center space-y-10 md:space-y-0 '>
             <ProductCard title='Development' />
             <ProductCard title='UI/UX Design' />
             <ProductCard title='Consulting' />

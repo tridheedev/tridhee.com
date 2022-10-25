@@ -22,7 +22,7 @@ const ProductCard = (props: Props) => {
           </div>
         </div>
       </div>
-      <div className='border px-10 py-2 text-sm font-semibold rounded-md shadow-sm   text-center mx-16 justify-end  hover:app-bg-p hover:text-white transition '>
+      <div className='border-2 px-10 py-2 text-sm font-semibold rounded-md shadow-sm   text-center mx-16 justify-end  hover:app-bg-p hover:text-white transition '>
         Get Started
       </div>
     </div>
