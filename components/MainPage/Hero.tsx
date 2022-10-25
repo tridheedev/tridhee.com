@@ -6,7 +6,7 @@ type Props = {};
 const Hero = (props: Props) => {
   return (
     <div className=' pt-32 text-gray-900   '>
-      <div className='mx-2 md:mx-0'>
+      <div className='mx-2 md:mx-0 space-y-2'>
         <div className='md:text-5xl text-2xl text-center font-bold capitalize'>
           <div>Build your software products,</div>
           <div>faster. Better. Scalable.</div>
