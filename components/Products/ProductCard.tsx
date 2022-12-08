@@ -9,9 +9,9 @@ const ProductCard = (props: Props) => {
     <div className='px-2 w-[370px] h-[500px] border shadow-lg rounded-lg pt-12 pb-16 flex  flex-col justify-between'>
       <div className='flex justify-center '>
         <div className='flex flex-col items-center'>
-          <div className='h-16 w-16 bg-gray-600 rounded-lg text-white  shadow-lg'>
+          {/* <div className='h-16 w-16 bg-gray-600 rounded-lg text-white  shadow-lg'>
             icon
-          </div>
+          </div> */}
           <div className='app-text-main font-bold py-5'>{props.title}</div>
           <div className='text-sm'>
             <div className='flex  flex-col space-y-4 mx-10'>
