@@ -9,7 +9,9 @@ const Header = (props: Props) => {
       <div className='flex justify-between'>
         <div className='flex items-center mx-2'>
           <Logo />
-          <h1 className='font-extrabold text-xl w-40'>Tridhee Labs</h1>
+          <h1 className='text-xl font-medium w-40  app-text-main'>
+            Tridhee Labs
+          </h1>
         </div>
         <div className='hidden space-x-4 text-sm font-bold text-gray-900 items-center md:flex '>
           <h4>Our Work</h4>

@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        mont: ['Montserrat', ...defaultTheme.fontFamily.sans],
+        mont: ['Poppins', ...defaultTheme.fontFamily.sans],
       },
     },
   },

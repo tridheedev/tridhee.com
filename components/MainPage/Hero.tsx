@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import CallArrow from '../../icons/CallArrow';
 
@@ -9,11 +10,15 @@ const Hero = (props: Props) => {
       <div className='mx-2 md:mx-0 space-y-2'>
         <div className='md:text-5xl text-2xl text-center font-bold capitalize'>
           <div>Build your software products,</div>
-          <div>faster. Better. Scalable.</div>
+          <div>faster, Better, Scalable.</div>
         </div>
-        <div className='flex text-center max-w-prose  pt-2 mx-auto md:text-base'>
-          {`We're a web and mobile apps product development agency with a proven
-          background in SaaS.`}
+        <div className='flex text-center max-w-prose  pt-2 mx-auto md:text-base py-2'>
+          <p>
+            We're a trusted web and mobile app development agency with expertise
+            in <span className='font-bold'> Web & Mobile development </span>,
+            <span className='font-bold'>Logo designing </span> &
+            <span className='font-bold'> Performance marketing</span>.
+          </p>
         </div>
         <div className='py-1 pb-3 mx-auto  text-center'>
           {` Whether you're a startup, an agency or a big company, we've got you

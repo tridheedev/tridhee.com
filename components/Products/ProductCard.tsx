@@ -1,23 +1,31 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import ProductCardDesc from './ProductCadDesc';
 
 interface Props {
   title: string;
+  icons: ReactElement;
+  descriptions: {
+    main: string;
+    sec: string;
+    tri: string;
+  };
 }
 const ProductCard = (props: Props) => {
   return (
-    <div className='px-2 w-[370px] h-[500px] border shadow-lg rounded-lg pt-12 pb-16 flex  flex-col justify-between'>
+    <div className='px-2 w-[370px] h-[500px] border shadow-md rounded-lg pt-12 pb-16 flex  flex-col justify-between'>
       <div className='flex justify-center '>
         <div className='flex flex-col items-center'>
-          {/* <div className='h-16 w-16 bg-gray-600 rounded-lg text-white  shadow-lg'>
-            icon
-          </div> */}
-          <div className='app-text-main font-bold py-5'>{props.title}</div>
+          <div className='flex justify-center flex-col items-center '>
+            <div className='app-text-main border-2 px-6 py-6 rounded-full shadow-sm'>
+              {props.icons}
+            </div>
+            <div className='app-text-main font-bold py-5'>{props.title}</div>
+          </div>
           <div className='text-sm'>
             <div className='flex  flex-col space-y-4 mx-10'>
-              <ProductCardDesc text='A week-long deep dive session into product road mapping and discovery.' />
-              <ProductCardDesc text='Define a high-level system blueprint and designs.' />
-              <ProductCardDesc text='Mapping problems into feature sets.' />
+              <ProductCardDesc text={props.descriptions.main} />
+              <ProductCardDesc text={props.descriptions.sec} />
+              <ProductCardDesc text={props.descriptions.tri} />
             </div>
           </div>
         </div>

@@ -6,45 +6,27 @@ import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
 import Client from '../components/MainPage/Client';
 import Hero from '../components/MainPage/Hero';
-import ProductCard from '../components/Products/ProductCard';
+import OurServices from '../components/MainPage/OurServices';
+import OurServiceVertical from '../components/MainPage/OurServiceVertical';
+import Layout from './layout';
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <Head>
-        <title>Software Product Agency </title>
-        <meta name='description' content='Software development agency' />
-        <link rel='icon' href='/favicon.ico' />
-      </Head>
-
-      <main>
-        <div>
-          <Header />
-        </div>
-        <div>
-          <Hero />
-        </div>
-        <div>
-          <Client />
-        </div>
-        <div className='py-10'>
-          <div className='text-center py-10'>
-            <h5 className='app-text-main font-bold text-lg'>Our Services</h5>
+    <div className='font-mont'>
+      <Layout>
+        <main>
+          <div>
+            <Hero />
           </div>
-          <div className='container mx-auto flex justify-center md:space-x-10 space-x-0  flex-col md:flex-row  items-center space-y-10 md:space-y-0 '>
-            <ProductCard title='Development' />
-            <ProductCard title='UI/UX Design' />
-            <ProductCard title='Consulting' />
+          <div>
+            <Client />
           </div>
-        </div>
-        {/* <div className='container mx-auto'>
-          <Circle />
-        </div> */}
-      </main>
-
-      <footer className='app-bg-main'>
-        <Footer />
-      </footer>
+          <div>
+            <OurServices />
+            <OurServiceVertical />
+          </div>
+        </main>
+      </Layout>
     </div>
   );
 };
