@@ -4,118 +4,122 @@
 
 ScrewFast is an open-source template designed for quick and efficient web project setup, blending minimalism with functionality. Whether you're showcasing a portfolio, launching a company landing page, or running a blog, ScrewFast provides everything you need. By combining the power of the [Astro](https://astro.build/), [Tailwind CSS](https://tailwindcss.com/), and [Preline UI](https://preline.co/), this template offers a functional and aesthetically pleasing solution for your web presence.
 
-**[View Live Demo](https://screwfast.uk)**
+**[View Live Demo](https://tridhee.com)**
 
 ## Table of Contents
 
-* [Why Choose ScrewFast?](#why-choose-screwfast)
-* [Features](#features)
-* [What's New](#whats-new)
-* [Getting Started](#getting-started)
-  * [Installation](#installation)
-  * [Development Commands](#development-commands)
-* [Deployment](#deployment)
-  * [Building Your Site](#building-your-site)
-  * [Deploying to Vercel](#deploying-to-vercel)
-* [Project Structure](#project-structure)
-* [Static Assets and Public Resources](#static-assets-and-public-resources)
-* [Customization](#customization)
-  * [Editing Component Variables](#editing-component-variables)
-  * [Props in Component Instances](#props-in-component-instances)
-  * [Customizing Navigation and Footer Links](#customizing-navigation-and-footer-links)
-    * [Navigation Bar Links](#navigation-bar-links)
-    * [Footer Links](#footer-links)
-    * [Social Media Links](#social-media-links)
-* [Integrations and Enhancements](#integrations-and-enhancements)
-  * [Starlight Documentation](#starlight-documentation)
-  * [Lenis for Smooth Scrolling](#lenis-for-smooth-scrolling)
-  * [GSAP Integration](#gsap-integration)
-  * [Hiding Scrollbar](#hiding-scrollbar)
-  * [SEO Configuration](#seo-configuration)
-    * [Using constants.ts](#using-constantsts)
-    * [Applying Metadata in Layouts](#applying-metadata-in-layouts)
-    * [Passing Individual Schema](#passing-individual-schema)
-    * [Extending Metadata for SEO](#extending-metadata-for-seo)
-    * [Structured Data and Rich Snippets](#structured-data-and-rich-snippets)
-    * [Using Astro SEO Integrations](#using-astro-seo-integrations)
-  * [Robots.txt](#robotstxt)
-  * [Markdown/MDX](#markdownmdx)
-    * [Image Integration](#image-integration)
-  * [Astro Integrations](#astro-integrations)
-  * [Flexibility with Integrations](#flexibility-with-integrations)
-* [Tools and Technologies](#tools-and-technologies)
-  * [Preline UI](#preline-ui)
-  * [Tailwind CSS](#tailwind-css)
-  * [Deployment and Security](#deployment-and-security)
-  * [HTML Minification](#html-minification)
-* [Contributing](#contributing)
-* [License](#license)
+- [Why Choose ScrewFast?](#why-choose-screwfast)
+- [Features](#features)
+- [What's New](#whats-new)
+- [Getting Started](#getting-started)
+  - [Installation](#installation)
+  - [Development Commands](#development-commands)
+- [Deployment](#deployment)
+  - [Building Your Site](#building-your-site)
+  - [Deploying to Vercel](#deploying-to-vercel)
+- [Project Structure](#project-structure)
+- [Static Assets and Public Resources](#static-assets-and-public-resources)
+- [Customization](#customization)
+  - [Editing Component Variables](#editing-component-variables)
+  - [Props in Component Instances](#props-in-component-instances)
+  - [Customizing Navigation and Footer Links](#customizing-navigation-and-footer-links)
+    - [Navigation Bar Links](#navigation-bar-links)
+    - [Footer Links](#footer-links)
+    - [Social Media Links](#social-media-links)
+- [Integrations and Enhancements](#integrations-and-enhancements)
+  - [Starlight Documentation](#starlight-documentation)
+  - [Lenis for Smooth Scrolling](#lenis-for-smooth-scrolling)
+  - [GSAP Integration](#gsap-integration)
+  - [Hiding Scrollbar](#hiding-scrollbar)
+  - [SEO Configuration](#seo-configuration)
+    - [Using constants.ts](#using-constantsts)
+    - [Applying Metadata in Layouts](#applying-metadata-in-layouts)
+    - [Passing Individual Schema](#passing-individual-schema)
+    - [Extending Metadata for SEO](#extending-metadata-for-seo)
+    - [Structured Data and Rich Snippets](#structured-data-and-rich-snippets)
+    - [Using Astro SEO Integrations](#using-astro-seo-integrations)
+  - [Robots.txt](#robotstxt)
+  - [Markdown/MDX](#markdownmdx)
+    - [Image Integration](#image-integration)
+  - [Astro Integrations](#astro-integrations)
+  - [Flexibility with Integrations](#flexibility-with-integrations)
+- [Tools and Technologies](#tools-and-technologies)
+  - [Preline UI](#preline-ui)
+  - [Tailwind CSS](#tailwind-css)
+  - [Deployment and Security](#deployment-and-security)
+  - [HTML Minification](#html-minification)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Why Choose ScrewFast?
+## Why Choose tridhee?
 
-* **Efficient Architecture:** Deploy faster with a template that's simple to set up and navigate.
-* **Optimized for Small Projects:** Perfect for crisp, professional web personas without excess complexity.
-* **Highly Customizable:** Flexibly adapt and style your site using Astro and Tailwind CSS.
+- **Efficient Architecture:** Deploy faster with a template that's simple to set up and navigate.
+- **Optimized for Small Projects:** Perfect for crisp, professional web personas without excess complexity.
+- **Highly Customizable:** Flexibly adapt and style your site using Astro and Tailwind CSS.
 
 ## Features
 
-* **Astro-Powered:** Utilize a modern static-site generation framework.
-* **Tailwind CSS:** Enjoy rapid UI development with a utility-first CSS framework.
-* **Preline UI:** Implement prebuilt UI components for added elegance.
-* **GSAP Integration:** Impress with professional and polished animations.
-* **Markdown Content Collections:** Organize and manage your content seamlessly.
-* **Starlight Documentation:** A sleek, user-friendly, full-featured documentation theme.
-* **Internationalization (i18n):** Integrates Astro’s internationalization features.
-* **SEO and Responsiveness:** Ensure your site is discoverable and accessible on any device.
+- **Astro-Powered:** Utilize a modern static-site generation framework.
+- **Tailwind CSS:** Enjoy rapid UI development with a utility-first CSS framework.
+- **Preline UI:** Implement prebuilt UI components for added elegance.
+- **GSAP Integration:** Impress with professional and polished animations.
+- **Markdown Content Collections:** Organize and manage your content seamlessly.
+- **Starlight Documentation:** A sleek, user-friendly, full-featured documentation theme.
+- **Internationalization (i18n):** Integrates Astro’s internationalization features.
+- **SEO and Responsiveness:** Ensure your site is discoverable and accessible on any device.
 
 ## What's New
 
 ### Added Features
 
-* [x] **Social Share Component**:
-  * Enables users to share blog posts on social media platforms.
-  * Provides easy sharing of a blog post's title and URL.
-  * Integrates Clipboard.js for link URL copy functionality.
+- [x] **Social Share Component**:
 
-* [x] **Bookmark Button Component**:
-  * Allows users to bookmark blog posts for later reference.
-  * Provides a visual indication of whether a post is bookmarked.
-  * Utilizes `localStorage` to store bookmarks locally in the browser.
-  * For SSR, replace `localStorage` with cookies to persist bookmarked posts.
-    * This setup opens up the possibility for the server to dynamically render content based on user-specific bookmarks, should you choose to implement this feature.
+  - Enables users to share blog posts on social media platforms.
+  - Provides easy sharing of a blog post's title and URL.
+  - Integrates Clipboard.js for link URL copy functionality.
 
-* [x] **Post Feedback Component**:
-  * Collects user feedback at the end of each blog post.
-  * Serves as a UI demonstration with no live back-end integration.
-  
-* [x] **Starlight Documentation Theme Integration**:
-  * A sleek, user-friendly, full-featured documentation theme, which enhances the readability and usability of documentation.
-  * Offers a range of features such as site navigation, built-in search functionality, dark mode, syntax highlighting for code, and improved SEO.
-  * Seamlessly integrates internationalization (i18n) to provide support for documentation in multiple languages, catering to a global audience.
-  * Designed to facilitate ease of use while offering a modern aesthetic in both light and dark themes to accommodate user preferences.
+- [x] **Bookmark Button Component**:
 
-* [x] **Icon Set Component**:
-  * Convenient and reusable Icon component that allows adding icons simply by providing a name prop.
-  * Render any pre-defined icon SVG using `<Icon name="iconName" />` in your Astro components.
-  * The Icon Component offers a centralized location for all SVG Icons across the project in one TypeScript file - allowing unified updates and easy maintenance.
-  * **Note:** Developers have the option to use other community integrations like [astro-icons](https://github.com/natemoo-re/astro-icon). However, the author decided to create a custom icon set component for managing custom icons.
+  - Allows users to bookmark blog posts for later reference.
+  - Provides a visual indication of whether a post is bookmarked.
+  - Utilizes `localStorage` to store bookmarks locally in the browser.
+  - For SSR, replace `localStorage` with cookies to persist bookmarked posts.
+    - This setup opens up the possibility for the server to dynamically render content based on user-specific bookmarks, should you choose to implement this feature.
 
-* [x] **Internationalization (i18n) Features**:
-  * Integrates [Astro’s internationalization (i18n) features](https://docs.astro.build/en/guides/internationalization/).
-  * Additionally, a custom LanguagePicker component has been developed to facilitate language selection.
-  * Developers can access the monolingual version directly from [`monolingual-site` branch](https://github.com/mearashadowfax/ScrewFast/tree/monolingual-site).
+- [x] **Post Feedback Component**:
+  - Collects user feedback at the end of each blog post.
+  - Serves as a UI demonstration with no live back-end integration.
+- [x] **Starlight Documentation Theme Integration**:
 
-* [x] **Dynamic Table of Contents (ToC) with Scroll Progress Indicator**:
-  * Enhances ease of navigation in insight posts by highlighting the relevant section in the ToC, and includes a progress indicator to visually represent scroll progress.
-  * Developers seeking alternatives might consider the [remark-toc](https://github.com/remarkjs/remark-toc) plugin.
+  - A sleek, user-friendly, full-featured documentation theme, which enhances the readability and usability of documentation.
+  - Offers a range of features such as site navigation, built-in search functionality, dark mode, syntax highlighting for code, and improved SEO.
+  - Seamlessly integrates internationalization (i18n) to provide support for documentation in multiple languages, catering to a global audience.
+  - Designed to facilitate ease of use while offering a modern aesthetic in both light and dark themes to accommodate user preferences.
+
+- [x] **Icon Set Component**:
+
+  - Convenient and reusable Icon component that allows adding icons simply by providing a name prop.
+  - Render any pre-defined icon SVG using `<Icon name="iconName" />` in your Astro components.
+  - The Icon Component offers a centralized location for all SVG Icons across the project in one TypeScript file - allowing unified updates and easy maintenance.
+  - **Note:** Developers have the option to use other community integrations like [astro-icons](https://github.com/natemoo-re/astro-icon). However, the author decided to create a custom icon set component for managing custom icons.
+
+- [x] **Internationalization (i18n) Features**:
+
+  - Integrates [Astro’s internationalization (i18n) features](https://docs.astro.build/en/guides/internationalization/).
+  - Additionally, a custom LanguagePicker component has been developed to facilitate language selection.
+  - Developers can access the monolingual version directly from [`monolingual-site` branch](https://github.com/mearashadowfax/ScrewFast/tree/monolingual-site).
+
+- [x] **Dynamic Table of Contents (ToC) with Scroll Progress Indicator**:
+  - Enhances ease of navigation in insight posts by highlighting the relevant section in the ToC, and includes a progress indicator to visually represent scroll progress.
+  - Developers seeking alternatives might consider the [remark-toc](https://github.com/remarkjs/remark-toc) plugin.
 
 ### Planned Improvements
 
-* Currently, there are no planned improvements. We'll update this section as plans develop.
+- Currently, there are no planned improvements. We'll update this section as plans develop.
 
 ### Bug Fixes
 
-* Currently, there are no known bugs. If you encounter any issues, please report them on our [issues page](https://github.com/mearashadowfax/ScrewFast/issues).
+- Currently, there are no known bugs. If you encounter any issues, please report them on our [issues page](https://github.com/mearashadowfax/ScrewFast/issues).
 
 ## Getting Started
 
@@ -135,9 +139,9 @@ This command will install all the necessary dependencies defined in the `package
 
 With dependencies installed, you can utilize the following npm scripts to manage your project's development lifecycle:
 
-* `npm run dev`: Starts a local development server with hot reloading enabled.
-* `npm run preview`: Serves your build output locally for preview before deployment.
-* `npm run build`: Bundles your site into static files for production.
+- `npm run dev`: Starts a local development server with hot reloading enabled.
+- `npm run preview`: Serves your build output locally for preview before deployment.
+- `npm run build`: Bundles your site into static files for production.
 
 For detailed help with Astro CLI commands, visit [Astro's documentation](https://docs.astro.build/en/reference/cli-reference/).
 
@@ -155,7 +159,7 @@ This creates a `dist/` directory with your built site (configurable via [outDir 
 
 ### Deploying to Vercel
 
-Click the button below to start deploying your project on Vercel:  
+Click the button below to start deploying your project on Vercel:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmearashadowfax%2FScrewFast)
 
@@ -164,38 +168,36 @@ Click the button below to start deploying your project on Vercel:
 ScrewFast organizes modular components, content, and layouts to streamline development and content management.
 
 ```md
-
 src/
-├── assets/               
-│   ├── scripts/          # JS scripts
-│   └── styles/           # CSS styles
-├── components/           # Reusable components
-│   ├── Meta.astro        # Meta component for SEO
-│   ├── sections/         # Components for various sections of the website
-│   ├── ThemeIcon.astro   # Component for toggling light/dark themes
-│   └── ui/               # UI components categorized by functionality
-├── content/              # Markdown files for blog posts, insights, products, and site configuration
-│   ├── blog/
-│   ├── docs/           
-│   ├── insights/         
-│   ├── products/         
-│   └── config.ts         # Contains site-wide configuration options
-├── data_files/           # Strings stored as JSON files
-├── images/               # Static image assets for use across the website
-├── layouts/              # Components defining layout templates
-│   └── MainLayout.astro  # The main wrapping layout for all pages
-├── pages/                # Astro files representing individual pages and website sections
-│   ├── 404.astro         # Custom 404 page
-│   ├── blog/   
-│   ├── fr/               # Localized content
-│   ├── contact.astro     
-│   ├── index.astro       # The landing/home page
-│   ├── insights/         
-│   ├── products/         
-│   ├── robots.txt.ts     # Dynamically generates robots.txt
-│   └── services.astro
-└── utils/                # Shared utility functions and helpers
-
+├── assets/  
+│ ├── scripts/ # JS scripts
+│ └── styles/ # CSS styles
+├── components/ # Reusable components
+│ ├── Meta.astro # Meta component for SEO
+│ ├── sections/ # Components for various sections of the website
+│ ├── ThemeIcon.astro # Component for toggling light/dark themes
+│ └── ui/ # UI components categorized by functionality
+├── content/ # Markdown files for blog posts, insights, products, and site configuration
+│ ├── blog/
+│ ├── docs/  
+│ ├── insights/  
+│ ├── products/  
+│ └── config.ts # Contains site-wide configuration options
+├── data_files/ # Strings stored as JSON files
+├── images/ # Static image assets for use across the website
+├── layouts/ # Components defining layout templates
+│ └── MainLayout.astro # The main wrapping layout for all pages
+├── pages/ # Astro files representing individual pages and website sections
+│ ├── 404.astro # Custom 404 page
+│ ├── blog/  
+│ ├── fr/ # Localized content
+│ ├── contact.astro  
+│ ├── index.astro # The landing/home page
+│ ├── insights/  
+│ ├── products/  
+│ ├── robots.txt.ts # Dynamically generates robots.txt
+│ └── services.astro
+└── utils/ # Shared utility functions and helpers
 ```
 
 ## Static Assets and Public Resources
@@ -203,10 +205,8 @@ src/
 Static files served directly to the browser are within the `public` directory at the root of the project.
 
 ```md
-
 public/
 └── banner-pattern.svg
-    
 ```
 
 ## Customization
@@ -337,17 +337,17 @@ ScrewFast is now equipped with the Starlight, which is designed to elevate the u
 
 Key Features:
 
-* **Site Navigation and Search**: Navigate through the documentation with ease using intuitive sidebar and built-in search functionality.
-* **Internationalization**: Cater to a global audience with the ability to switch languages, making documentation accessible to everyone, everywhere.
-* **SEO Friendly**: Optimized for search engines to help users quickly find the information they need.
-* **Code Highlighting and Dark Mode**: Enhances code readability with syntax highlighting, and offers a dark mode to reduce eye strain for users.
-* **Mobile Responsive Design**: Whether you're on a phone, tablet, or desktop, the documentation adapts to your screen size for optimal readability.
+- **Site Navigation and Search**: Navigate through the documentation with ease using intuitive sidebar and built-in search functionality.
+- **Internationalization**: Cater to a global audience with the ability to switch languages, making documentation accessible to everyone, everywhere.
+- **SEO Friendly**: Optimized for search engines to help users quickly find the information they need.
+- **Code Highlighting and Dark Mode**: Enhances code readability with syntax highlighting, and offers a dark mode to reduce eye strain for users.
+- **Mobile Responsive Design**: Whether you're on a phone, tablet, or desktop, the documentation adapts to your screen size for optimal readability.
 
 With Starlight, you gain access to a wealth of powerful features and integrations, along with extensive customization options to fit your needs.
 
 > [!NOTE]
 > Dive into the Starlight's comprehensive feature list and learn how it can streamline your development process by visiting the theme's [documentation site](https://starlight.astro.build/).
->
+
 ### Lenis for Smooth Scrolling
 
 Experience buttery smooth scrolling with [Lenis](https://lenis.studiofreight.com/). We've integrated Lenis to provide an enhanced scrolling experience that's both fluid and responsive.
@@ -363,8 +363,8 @@ import Lenis from "lenis";
 const lenis = new Lenis();
 
 function raf(time) {
-    lenis.raf(time);
-    requestAnimationFrame(raf);
+  lenis.raf(time);
+  requestAnimationFrame(raf);
 }
 
 requestAnimationFrame(raf);
@@ -385,7 +385,7 @@ Please note that smooth scrolling can affect accessibility and performance on so
 
 ### GSAP Integration
 
- For individual product pages, [GSAP](https://gsap.com/) has been integrated to add engaging animations that execute as soon as the product page loads. You can find and modify the GSAP configuration in the script sections of the product page file located at `src/pages/products/[...slug].astro` and the insights page at `src/pages/insights/[...slug].astro`:
+For individual product pages, [GSAP](https://gsap.com/) has been integrated to add engaging animations that execute as soon as the product page loads. You can find and modify the GSAP configuration in the script sections of the product page file located at `src/pages/products/[...slug].astro` and the insights page at `src/pages/insights/[...slug].astro`:
 
 ```astro
 <script>
@@ -400,8 +400,8 @@ Please tailor the GSAP animations within this script to fit your project's look 
 
 **Modifying or Removing Animations:**
 
-* To modify an animation, update the properties and parameters within the `gsap.from()` method, or add new GSAP animation calls as required.
-* Should GSAP not be needed, or if you prefer a different animation method, simply remove the aforementioned script segment.
+- To modify an animation, update the properties and parameters within the `gsap.from()` method, or add new GSAP animation calls as required.
+- Should GSAP not be needed, or if you prefer a different animation method, simply remove the aforementioned script segment.
 
 > [!NOTE]
 > We've chosen to keep the integration lean and focused, but GSAP's comprehensive documentation can be referred to for more complex animations: [GSAP Documentation](https://gsap.com/docs/v3/).
@@ -417,20 +417,20 @@ For those who prefer custom-styled scrollbars, we suggest using the [tailwind-sc
 
 ```html
 <style>
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
-}
-.scrollbar-hide {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 </style>
 ```
 
 Additionally, update the `<html>` tag to remove the `scrollbar-hide` class, resulting in:
 
 ```html
-<html lang="en" class="scroll-pt-16">
+<html lang="en" class="scroll-pt-16"></html>
 ```
 
 ### SEO Configuration
@@ -515,7 +515,7 @@ Structured data in JSON-LD format can be managed by the `Meta.astro` component, 
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "ScrewFast",
-    "url": "https://screwfast.uk",
+    "url": "https://tridhee.com",
     "description": "Discover top-quality hardware tools and services"
   }}
 >
@@ -530,19 +530,19 @@ While the template provides a custom SEO solution, you may choose to utilize an 
 `robots.txt` is dynamically generated using the code found in src/pages/robots.txt.ts. This configuration follows the example from the Astro Docs:
 
 ```ts
-import type { APIRoute } from 'astro';
+import type { APIRoute } from "astro";
 
 const robotsTxt = `
 User-agent: *
 Allow: /
 
-Sitemap: ${new URL('sitemap-index.xml', import.meta.env.SITE).href}
+Sitemap: ${new URL("sitemap-index.xml", import.meta.env.SITE).href}
 `.trim();
 
 export const GET: APIRoute = () => {
   return new Response(robotsTxt, {
     headers: {
-      'Content-Type': 'text/plain; charset=utf-8',
+      "Content-Type": "text/plain; charset=utf-8",
     },
   });
 };
@@ -556,16 +556,16 @@ The addition of `.vscode/settings.json` file in the root directory facilitates i
 
 ##### Usage
 
-* **Paste/Drop Images**: Activate by pressing <kbd>Shift</kbd> while dropping the file.
-* **Markdown Link**: Image is linked using Markdown syntax `(![alt text](../../images/content/<path>))`.
-* **File Handling**: Images are organized in `src/images/content/<path>`.
+- **Paste/Drop Images**: Activate by pressing <kbd>Shift</kbd> while dropping the file.
+- **Markdown Link**: Image is linked using Markdown syntax `(![alt text](../../images/content/<path>))`.
+- **File Handling**: Images are organized in `src/images/content/<path>`.
 
 ##### Example
 
 Pasting `getting-started.png` into `src/content/post-1.md` results in:
 
-* Adding `![alt text](../../images/content/post-1/getting-started.png)` to `post-1.md`.
-* Moving the image file to `src/images/content/post-1/getting-started.png`.
+- Adding `![alt text](../../images/content/post-1/getting-started.png)` to `post-1.md`.
+- Moving the image file to `src/images/content/post-1/getting-started.png`.
 
 > [!NOTE]
 > Remember to press <kbd>Shift</kbd> while dropping images.
@@ -574,8 +574,8 @@ Pasting `getting-started.png` into `src/content/post-1.md` results in:
 
 Maximize your website's efficiency with these built-in Astro integrations:
 
-* [Astro Compressor](https://github.com/sondr3/astro-compressor#readme): Automatically compresses Astro-generated site using gzip or brotli, ensuring faster load times.
-Configure the compressor in `astro.config.mjs` file:
+- [Astro Compressor](https://github.com/sondr3/astro-compressor#readme): Automatically compresses Astro-generated site using gzip or brotli, ensuring faster load times.
+  Configure the compressor in `astro.config.mjs` file:
 
 ```mjs
    export default defineConfig({
@@ -584,17 +584,17 @@ Configure the compressor in `astro.config.mjs` file:
    });
 ```
 
-* [Astro Sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/): Automatically generates a sitemap for a website, which is vital for SEO and helping search engine bots crawl pages effectively. To set up the Astro Sitemap, be sure to specify your site's base URL and any additional options in `astro.config.mjs` file:
+- [Astro Sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/): Automatically generates a sitemap for a website, which is vital for SEO and helping search engine bots crawl pages effectively. To set up the Astro Sitemap, be sure to specify your site's base URL and any additional options in `astro.config.mjs` file:
 
 ```mjs
-   export default defineConfig({
+export default defineConfig({
   // ...
-  site: 'https://example.com',
+  site: "https://example.com",
   integrations: [sitemap()],
 });
 ```
 
-* [Bag of Tricks for Astro's View Tran­si­tions](https://github.com/martrapp/astro-vtbot#readme): is a collection of extensions and support aimed at enhancing Astro's view transitions. Whether you're looking to add flair to your website or streamline user experience, this toolkit offers various techniques to elevate your projects. In the template, it was used to add View Transitions to a Starlight docs.
+- [Bag of Tricks for Astro's View Tran­si­tions](https://github.com/martrapp/astro-vtbot#readme): is a collection of extensions and support aimed at enhancing Astro's view transitions. Whether you're looking to add flair to your website or streamline user experience, this toolkit offers various techniques to elevate your projects. In the template, it was used to add View Transitions to a Starlight docs.
 
 ### Flexibility with Integrations
 
@@ -660,10 +660,10 @@ await Promise.all(
 
 We encourage you to refer to the detailed documentation for each tool to fully understand their capabilities and how they contribute to the project:
 
-* [Preline UI Documentation](https://preline.co/docs)
-* [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-* [Vercel Documentation](https://vercel.com/docs)
-* [html-minifier-terser Documentation](https://github.com/terser/html-minifier-terser)
+- [Preline UI Documentation](https://preline.co/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Vercel Documentation](https://vercel.com/docs)
+- [html-minifier-terser Documentation](https://github.com/terser/html-minifier-terser)
 
 ## Contributing
 

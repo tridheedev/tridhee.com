@@ -20,7 +20,7 @@ const frenchInsightsEntries = await getCollection("insights", ({ id }) => {
 
 const blogPosts: CollectionEntry<"blog">[] = frenchBlogEntries.sort(
   (a: CollectionEntry<"blog">, b: CollectionEntry<"blog">) =>
-    b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+    b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 // Get all insights posts
 const insightPosts: CollectionEntry<"insights">[] = frenchInsightsEntries;
@@ -40,22 +40,25 @@ const secondSubTitle: string =
 const pageTitle: string = `Blog | ${SITE.title}`;
 ---
 
-<MainLayout lang="fr"
+<MainLayout
+  lang="fr"
   title={pageTitle}
   structuredData={{
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://screwfast.uk/fr/blog",
-    "url": "https://screwfast.uk/fr/blog",
-    "name": "Blog | ScrewFast",
-    "description": "Restez informé des dernières tendances et évolutions dans le secteur de la construction avec les analyses de l'équipe d'experts de ScrewFast.",
-    "isPartOf": {
+    "@id": "https://tridhee.com/fr/blog",
+    url: "https://tridhee.com/fr/blog",
+    name: "Blog | ScrewFast",
+    description:
+      "Restez informé des dernières tendances et évolutions dans le secteur de la construction avec les analyses de l'équipe d'experts de ScrewFast.",
+    isPartOf: {
       "@type": "WebSite",
-      "url": "https://screwfast.uk/fr",
-      "name": "ScrewFast",
-      "description": "ScrewFast propose des outils matériels de premier ordre et des services de construction experts pour répondre à tous vos besoins de projet."
+      url: "https://tridhee.com/fr",
+      name: "ScrewFast",
+      description:
+        "ScrewFast propose des outils matériels de premier ordre et des services de construction experts pour répondre à tous vos besoins de projet.",
     },
-    "inLanguage": "fr"
+    inLanguage: "fr",
   }}
 >
   <section
@@ -82,7 +85,11 @@ const pageTitle: string = `Blog | ${SITE.title}`;
   >
     <!--Blog posts grid-->
     <div class="grid gap-6 lg:grid-cols-2">
-      {otherPosts.map((blogEntry) => <CardBlog blogEntry={blogEntry} blogLocale="fr"/>)}
+      {
+        otherPosts.map((blogEntry) => (
+          <CardBlog blogEntry={blogEntry} blogLocale="fr" />
+        ))
+      }
     </div>
   </section>
   <!--Most recent blog post-->
